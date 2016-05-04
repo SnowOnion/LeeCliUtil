@@ -1,11 +1,11 @@
 # normal
-sudo apt-get install vim tree git p7zip scrot
+sudo apt-get install vim emacs tree git p7zip scrot 
 # scrot 截图
 
 ## <accordingTo http://www.cnblogs.com/guyufei/archive/2012/07/25/2608376.html>
-sudo add-apt-repository ppa:cassou/emacs
-sudo apt-get update
-sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg
+# sudo add-apt-repository ppa:cassou/emacs
+# sudo apt-get update
+# sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg
 ## </accordingTo>
 
 # GUI (unity)

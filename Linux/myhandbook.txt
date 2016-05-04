@@ -1,0 +1,14 @@
+adduser USERNAME
+
+visudo
+USERNAME	ALL=(ALL:ALL) ALL
+
+
+nginx 
+配置小风波. 与apache2的奇妙反应. 2015-11-27 22:48:17
+
+
+为啥 ~/.emacs.d 的 owner 是 root 呢?
+	这里的评论好无聊=.= http://unix.stackexchange.com/questions/104439/emacs-defaulting-to-emacs-d-as-a-file
+
+
