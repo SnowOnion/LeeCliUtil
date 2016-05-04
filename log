@@ -1,0 +1,48 @@
+netbeans 8.0-1 20140322
+警告：/usr/share/netbeans/etc/netbeans.conf 已安装为 /usr/share/netbeans/etc/netbeans.conf.pacnew
+
+===========
+
+steam 20140402
+
+https://www.archlinux.org/packages/?sort=&q=steam&maintainer=&flagged=
+2 packages found.
+Arch	   Repo	Name	Version	Description	Last Updated	Flag Date
+i686	   Community	steam	1.0.0.47-1	Digital distribution client bootstrap package	2014-02-16	
+x86_64	   Multilib	steam	1.0.0.47-1	Digital distribution client bootstrap package	2014-02-16	
+
+===
+# After enableing multilib in /etc/pacman.conf
+[snowonion@ArchLee ~]$ sudo pacman -S steam
+[sudo] password for snowonion: 
+正在解决依赖关系...
+正在查找相互冲突...
+
+软件包 (2): zenity-3.10.2-1  steam-1.0.0.47-1
+
+下载大小:    5.43 MiB
+全部安装大小： 7.58 MiB
+
+:: 进行安装吗？ [Y/n] y
+:: 正在获取软件包......
+ zenity-3.10.2-1-x86_64                                        3.2 MiB   307K/s 00:11 [#################################################] 100%
+ steam-1.0.0.47-1-x86_64                                       2.2 MiB   199K/s 00:11 [#################################################] 100%
+(2/2) 正在检查密钥环里的密钥                                                          [#################################################] 100%
+(2/2) 正在检查软件包完整性                                                            [#################################################] 100%
+(2/2) 正在加载软件包文件                                                              [#################################################] 100%
+(2/2) 正在检查文件冲突                                                                [#################################################] 100%
+(2/2) 正在检查可用硬盘空间                                                            [#################################################] 100%
+(1/2) 正在安装 zenity                                                                 [#################################################] 100%
+(2/2) 正在安装 steam                                                                  [#################################################] 100%
+if you are running x86_64, you need the lib32 opt depends for your driver
+if you are having problems with the steam license, remove .steam and .local/share/Steam
+steam 的可选依赖
+    lib32-ati-dri: for open source ATI driver users[已安装]
+    lib32-catalyst-utils: for AMD Catalyst users
+    lib32-intel-dri: for open source Intel driver users
+    lib32-nouveau-dri: for Nouveau users
+    lib32-nvidia-utils: for NVIDIA proprietary blob users
+    lib32-flashplugin: for flash video
+
+=============
+

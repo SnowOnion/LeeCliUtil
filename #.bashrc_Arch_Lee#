@@ -1,0 +1,25 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+
+PS1='[\u@\h \W]\$ '
+
+# This file is a symbolic link referring to  /home/snowonion/app/utilLee/.bashrc_Arch_Lee
+
+alias \
+upup='sudo pacman -Syu' \
+ls='ls --color=auto' \
+la='ls -a' \
+ll='la -l' \
+lh='ll -h' \
+sshwt='ssh administrator@wt' \
+gcm='git commit -m' \
+ga.='git add .' \
+motto='echo "IT all start with <del>a</del> the Yuihji~"' \
+updf='evince' \
+apdf='okular' \
+

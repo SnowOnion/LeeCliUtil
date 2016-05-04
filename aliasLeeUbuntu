@@ -1,0 +1,12 @@
+# Some alias written by LEE Tianchi, for convenience, for honor.
+#
+# "Install": Add this shell script into ~/.bashrc <- it doesn't work. now I >> them into ~/.bashrc
+#
+#   if this shell script is added to ~/.bashrc just now, you can run:
+#     $ source ~/.bashrc
+#   to make the script  immidiately.
+
+alias upup='sudo apt-get update;sudo apt-get upgrade'
+alias lh='ls -lh'
+alias pdf='evince'
+alias sshwt='ssh administrator@wt'
